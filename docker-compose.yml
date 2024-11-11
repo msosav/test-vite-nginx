@@ -1,0 +1,7 @@
+services:
+  vite-nginx:
+    build: .
+    environment:
+      - VITE_APP_ENV=working
+    ports:
+      - "80:80"
